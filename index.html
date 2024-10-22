@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucky Numbers</title>
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css">
+    <link rel="stylesheet" href="./main.css">
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+    <py-env>
+        -paths:
+        - ./main.py
+    </py-env>
+</head>
+<body>
+    <div class="container">
+
+        <h1>What is my lucky numbers!!</h1>
+        <button id="lucky-button" type="submit" pys-onClick="on_click">Hit me!</button>
+    </div>
+    <py-script src ="main.py"/>
+    
+</body>
+</html>
