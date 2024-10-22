@@ -6,17 +6,17 @@
 }
 
 h1{
-    font-size: 1..25rem;
+    font-size: 1.5rem;
     font-weight: 800;
     color: blue;
-    margin-bottom: 15px;
+    margin-bottom: 35px;
 }
 
 #lucky-button {
     background-color: #db1616;
     border-radius: 9999px;
-    height: 100px;
-    width: 100px;
+    height: 120px;
+    width: 120px;
     color: white;
     font-weight: 700;
     font-size: 1.25rem;
